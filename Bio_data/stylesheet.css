@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(234, 234, 234);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(67, 67, 67);
+
+
+    
+}
+.title{
+    text-align: center;
+    background-color: rgb(51, 190, 214);
+    color: white;
+    padding: 10px;
+    
+}
+
+.bottom{
+    
+    margin: auto;
+    max-width: 1000px;
+    background-color: white;
+    font-size: medium;
+    border-radius: 18px; 
+    padding: 12px 15px;
+
+    margin-top: 12px;
+    margin-bottom: 12px;
+    box-shadow: 2px 2px 15px 6px rgb(187, 186, 186);
+
+  
+}
+
+.side-heading{
+    font-size: 25px;
+    font-weight: bold;
+    border-bottom: 3px  solid rgb(51, 190, 214) ;
+    margin-right: 18px;
+    margin-top :10px;
+    margin-bottom: 10px;
+ 
+    
+}
+
+.a{
+    display: block;
+    text-decoration: none;
+    margin-top:6px ;
+    margin-bottom:6px;
+
+    font-weight: bold;
+    
+}
+.lang{
+    display: inline-block;
+    background-color: rgb(51, 190, 214);
+    border-radius: 10px;
+    color: white;
+
+    margin: 0px 3px 3px 0px;
+    padding: 8px;
+}
+button{
+    background-color: rgb(51, 190, 214);
+    border-radius: 12px;
+    border: none;
+    padding: 10px;
+    font-size: medium;
+
+    cursor: pointer;
+    color: white;
+}
+button:hover{
+    background-color: rgb(153, 203, 203);
+}
+
+.fotter{
+    text-align: center;
+    background-color: rgb(95, 95, 95);
+    color: white;
+    padding: 10px 0px 10px 0px;
+}

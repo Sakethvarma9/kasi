@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saketh BioData</title>
+    <link rel="stylesheet" href="stylesheet.css">
+
+    <script>
+        function toggle(){
+            const element = document.getElementById("hidden_");
+            element.style.display =  element.style.display === "none" ? "block" : "none";
+
+            const btn = document.getElementById("button1");
+            btn.textContent = btn.textContent === "Hide" ? "show more details": "Hide";
+
+        }
+    </script>
+</head>
+<body>
+
+    <div class="title">
+        <h1>Saketh BioData</h1>
+    </div>
+    <div class="bottom">
+        <div>
+            <p class="side-heading">Personal Details</p>
+            <p><strong>Name:</strong> Penmatsa Saketh Varma</p>
+            <p><strong>Age:</strong>  21</p>
+            <p><strong>Location:</strong>  Madinaguda,Hyderabad</p>
+        </div>
+        
+        <div>
+            <p class="side-heading">Education</p>
+            <p>B-tech Computer science and engineering</p>
+        
+        </div>
+
+        <div>
+            <p class="side-heading">Youtube_links</p>
+            <a class="a" href="https://www.youtube.com/watch?v=ygXn5nV5qFc&t=10404s" target="_blank">Python</a>
+            <a class="a" href="https://youtu.be/u7dI0OnM4JU" target="_blank">Html</a>
+            <a class="a" href="https://www.google.com/" target="_blank">Css</a>
+            <a class="a" href="https://www.google.com/" target="_blank">JavaScript</a>
+        </div>
+
+        <div>
+            <p class="side-heading">Courses</p>
+            <span class="lang">Html</span>
+            <span class="lang">Css</span>
+            <span class="lang">JavaScript</span>
+            <span class="lang">Sql</span>
+        </div>
+
+        <div>
+            <p class="side-heading">Courses</p>
+            <p><strong>Email:</strong> saketh200419@gmail.com</p>
+            <p><strong>Phone: </strong> 9951318675</p>
+
+            <button id="button1" onclick = "toggle()">Show More details</button>
+            
+        </div>
+        <div id="hidden_" style="display:none">
+            <div>
+                <p class="side-heading">Hobbies</p>
+                <p>Playing cricket,</p>
+                <p>Watching Movies,</p>
+                <p>Scrolling insta</p>
+            </div>
+
+            <div>  
+                <p class="side-heading">Experience</p>
+                <p>None, Fresher</p>
+            </div>
+        </div>
+        
+    </div>
+        <div class="fotter">
+            <p>&copy; 2025 Saketh Varma | <a href="#" style="text-decoration:none;color: rgb(51, 190, 214);" >Privacy Policy</a></p>
+        </div>
+    
+</body>
+</html>
